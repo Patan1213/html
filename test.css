@@ -1,0 +1,26 @@
+*
+{
+    box-sizing: border-box;
+}
+.outer{
+    border: 2px solid red;
+    border-width: 10px;
+    border-top-right-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 5px black;
+}
+.inner{
+    border: 1px solid blue;
+    border-width: 10px;
+    padding: 10px;
+    margin: 5px;
+    display:inline-block;
+}
+#para
+{
+     clear: both; 
+}
+img{
+    height: 100px;
+    width:100px
+}

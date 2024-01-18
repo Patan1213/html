@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multimedia</title>
+  </head>
+  <body>
+    <video style="height: 300px; width: 600px;" controls autoplay muted>
+      <source src="./public/WhatsApp Video 2023-12-25 at 23.38.44_5f9be18f.mp4">
+    </video>
+    <audio>
+      <source src="">
+    </audio>
+    <figure width="200" height="100">
+      <img src="./public/meesho-logo (1).jpg" alt="">
+      <figcaption>Meesho</figcaption>
+    </figur>
+    <br>
+    <picture>
+      <source media="(max-width:800px)" src="./public/meesho-logo (1).jpg">
+    </picture>
+
+    <!--embed tag used to embed the elements, now we can use iframe-->
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rrXvdEMHVXc?si=z948HrJ6xOZU3eqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <br>
+    <label for="ice-cream-choice">choose a flavor:</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice"/>
+    <datalist id="ice-cream-flavors">
+      <option value="chocolate">chocolate</option>
+      <option value="coconut">coconut</option>
+      <option value="Mint">Mint</option>
+      <option value="strawberry">strawberry</option>
+      <option value="vanilla">vanilla</option>
+    </datalist>
+  </body>
+</html>

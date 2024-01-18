@@ -1,0 +1,34 @@
+body
+{
+   background: radial-gradient(red,green,blue,yellow,grey,red,blue);
+   background-size:auto;
+}
+*
+{
+    box-sizing: border-box;
+} 
+#h
+{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+.para
+{
+    color:tomato;
+    text-align: justify;
+}
+a
+{
+    text-align: none;
+}
+.word
+{ 
+    font-weight: bold;
+    text-decoration:underline;    
+}
+img
+{
+    height: 200px;
+    width: 500px;
+}

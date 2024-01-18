@@ -1,0 +1,72 @@
+/*.para
+{
+    background-color: brown;
+}
+#para1
+{
+    background-color: green;
+}
+.inner,.inner+p/*descendent,>immediate child
+{
+    background-color: red;
+}*/
+
+
+/*seudo classes
+p::first-line
+{
+    font-size: 50px;
+    color:black
+}
+#para1::after
+{
+    content: "hellooo"
+} */
+
+/*seudo selectors
+
+button
+{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+button:hover
+{
+    background-color: azure;
+    color:black
+}
+a:active
+{
+    background-color: blue;
+}
+a:visited
+{
+    background-color: pink;
+}
+.inp:focus
+{
+    border:1px solid red;
+}
+.inner:nth-child(1)
+{
+    background-color: blueviolet;
+}
+.inner:nth-last-child(8)
+{
+    background-color: yellow;
+}*/
+
+p:nth-last-of-type(2)
+{
+    background-color: green;
+}
+input:read-only
+{
+background: red;
+}
+input:disabled
+{
+background: red;
+}

@@ -1,0 +1,108 @@
+body
+{
+    background-color: black;
+}
+#outer
+{
+    border: 2px solid black;
+    height: 200px;
+    width: 500;
+}
+.inner
+{
+    background-color:blue;
+    height: 100px;
+    width: 100px;   
+    transition: 5s all ease 1s;
+}
+.inner:hover
+{
+    height: 100px;
+    width: 1000px;
+}
+.header
+{ 
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color:whitesmoke;
+}
+.menu-list
+{
+    display: flex;
+    gap: 10px;
+}
+.menu-item
+{
+    list-style-type: none;
+    transition: 2s all ease; 
+    padding: 5px;
+}
+.menu-item a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.test img
+{
+    transition: es all ease;
+}
+.menu-item:hover
+{
+    background-color: lightgray ;
+    color:white;
+    border-radius:10px ;
+}
+.logo img
+{
+    clip-path: polygon(50px);
+}
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    animation: asif;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes asif {
+    0%
+    {
+    background-color:orangered;
+    top: 200px;
+    bottom: 200px;
+    left: 100px;
+    }
+    25%
+    {
+        background-color: white;
+        top: 500px;
+        bottom: 200px;
+        left: 00px;
+    }
+    50%
+    {
+        background-color: blue;
+        border-radius: 100px;
+        top: 200px;
+        left: 500px;
+    }
+    75%
+    {
+        background-color: green;
+        top: 200px;
+        left: 50px;
+    }
+    100%
+    {
+        top: 500px;
+        left: 1000px;
+    }
+
+}
+
